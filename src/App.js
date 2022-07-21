@@ -1,4 +1,5 @@
 
+import Analayticts from './Components/Analayticts';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
 
@@ -7,6 +8,7 @@ function App() {
     <div >
       <Navbar/>
       <Hero/>
+      <Analayticts/>
     </div>
   );
 }
