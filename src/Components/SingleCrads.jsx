@@ -3,7 +3,7 @@ import React from 'react';
 const SingleCrads = ({card}) => {
     console.log(card);
     return (
-        <div className={`w-full shadow-xl flex flex-col p-4 my-4 hover:scale-105 duration-300 cursor-pointer ${card.bg} ${card.mt} border-rose-900`}>
+        <div className={`w-full shadow-xl flex flex-col p-4 my-4 hover:scale-105 duration-300 cursor-pointer ${card.bg} ${card.mt} border`}>
             <img className='w-20 mx-auto bg-white mt-[-3rem]' src={card.img} alt="" />
             <h2 className='text-black text-center text-2xl font-bold my-3'>{card.title}</h2>
             <p className='text-black text-center my-2 text-xl font-bold'>{card.price}</p>

@@ -39,7 +39,7 @@ const Cards = () => {
     ]
     // console.log(details);
     return (
-        <div className='w-full py-[10rem] px-4 bg-white'>
+        <div className='w-full py-[10rem] px-8 md:px-6 lg:px-4  bg-white'>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
                 {
                     details.map(card => <SingleCrads key={card._id} card={card} />)
